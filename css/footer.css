@@ -1,0 +1,15 @@
+footer {
+  padding: 2rem;
+}
+footer ul li {
+  display: inline-block;
+}
+footer img {
+  margin: 1rem;
+}
+
+footer > p {
+  font-size: 1.2rem;
+  margin: 2rem;
+  text-align: right;
+}

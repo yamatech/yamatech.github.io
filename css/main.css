@@ -1,0 +1,35 @@
+/* main.css */
+
+@import url("header.css");
+@import url("footer.css");
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 2rem;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: lightslategray;
+  border: none;
+  margin-top: 2.5rem;
+}
