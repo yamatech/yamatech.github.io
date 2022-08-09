@@ -1,0 +1,1 @@
+# yamatech.github.io
