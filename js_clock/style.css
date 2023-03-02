@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+.light-mode {
+  --bg-color: white;
+  --font-color: black;
+  --btn-color: #666;
+}
+.dark-mode {
+  --bg-color: black;
+  --font-color: white;
+  --btn-color: #ddd;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: var(--bg-color);
+  color: var(--font-color);
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  margin: 3vh 5vw;
+}
+
+.header {
+  text-align: right;
+}
+#changeDsp {
+  vertical-align: middle;
+  cursor: pointer;
+}
+#changeCSS {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.main {
+  text-align: center;
+  margin: 5vh 0;
+}
+.clock {
+  font-size: 22vw;
+}
+.sec {
+  font-size: 14vw;
+}
+
+.today {
+  text-align: center;
+  font-size: 5vw;
+}
+
+/* .app {
+  display: flex;
+  flex-direction: column;
+  margin: 10vw;
+}
+
+#clock {
+  font-weight: bold;
+  font-size: 12vw;
+}
+#today {
+  font-size: 4vw;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.btn {
+  justify-content: flex-end;
+  text-align: right;
+  background-color: var(--btn-color);
+  border: none;
+  border-radius: 50%;
+  margin: 5vw;
+  padding: 1vw;
+  font-size: 3vw;
+} */
