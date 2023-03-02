@@ -41,6 +41,7 @@ body {
 }
 .clock {
   font-size: 22vw;
+  font-weight: bold;
 }
 .sec {
   font-size: 14vw;
