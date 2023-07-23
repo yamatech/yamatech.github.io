@@ -1,0 +1,46 @@
+<!-- テーブルの作成。表題を1行、「タイトル」。その下のセルは6行2列で、1列目セルのテキストをすべて「左セル」と表示、2列目セルのテキストをすべて「右セル」と表示する。また、「左セル」はすべて<th>で、「右セル」はすべて<td>とする --> 
+<table>
+  <caption>タイトル</caption>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+  <tr>
+    <th>右セル</th>
+    <td>左セル</td>
+  </tr>
+</table>
+
+<!-- 上のテーブルの枠をCSSで1pxの黒の直線にする。全体の幅を80%にして、画面中央に表示--> 
+<style>
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+  width: 80%;
+  margin: auto;
+}
+</style>
+
+<!-- 上のテーブルのcaptionも黒枠で囲む、フォントを太字に-->
+<style>
+caption {
+  border: 1px solid black;
+  font-weight: bold;
+}
+</style>
