@@ -24,9 +24,16 @@ h2 {
 h3 {
   font-size: 1rem;
 }
+
 h4 {
   font-size: 1rem;
   margin: 0.5rem;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: gray;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
 }
 
 .img-box {
