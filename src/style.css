@@ -10,8 +10,8 @@ body {
 
 header {
   height: 5rem;
-  /*background-color: lightgreen;*/
-  background-image: url('img/header_img.png');
+  background-color: green;
+  /*background-image: url('img/header_img.png');*/
   opacity: 0.8;
   margin: 0;
   padding: 0;
@@ -27,7 +27,7 @@ header {
   margin: 0;
   padding: 0;
 }
-.header_title a {
+.header_title > a:link {
   color: white;
 }
 
