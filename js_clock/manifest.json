@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "dir": "auto",
+  "display": "standalone",
+  "name": "JS Clock",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "JSClock",
+  "start_url": "https://yamatech.github.io/js_clock/",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "type": "image/png",
+      "sizes": "16x16"
+    }
+  ],
+  "id": "JSCLOCK",
+  "description": "A simple clock made of JavaScript. For web browsers. (The testing phase of PWA. But I haven't implemented it yet.)\nSample in my GitHub pages -&gt; https://yamatech.github.io/js_clock/",
+  "lang": "en",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
+}
